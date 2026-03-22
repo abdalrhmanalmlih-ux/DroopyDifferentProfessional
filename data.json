@@ -1,0 +1,107 @@
+{
+    "customers": {
+        "يي": {
+            "balance": 10000,
+            "log": [
+                {
+                    "date": "2026-03-22",
+                    "type": "سحب",
+                    "amount": 5000,
+                    "source": "🌅 من غلة اليوم"
+                },
+                {
+                    "date": "2026-03-22",
+                    "type": "سحب",
+                    "amount": 3000,
+                    "source": "🏦 غلة قديمة"
+                },
+                {
+                    "date": "2026-03-22",
+                    "type": "دفع",
+                    "amount": 8000
+                },
+                {
+                    "date": "2026-03-22",
+                    "type": "سحب",
+                    "amount": 10000,
+                    "source": "🌅 من غلة اليوم"
+                }
+            ]
+        }
+    },
+    "suppliers": {
+        "بي": {
+            "log": [
+                {
+                    "date": "2026-03-22",
+                    "type": "دفع",
+                    "amount": 5000
+                },
+                {
+                    "date": "2026-03-22",
+                    "type": "شراء",
+                    "invoice_no": "555",
+                    "currency": "syp",
+                    "amount": 50000,
+                    "paid_amount": 30000,
+                    "paid_source": "🏦 غلة قديمة",
+                    "paid_currency": "syp"
+                },
+                {
+                    "date": "2026-03-22",
+                    "type": "شراء",
+                    "invoice_no": null,
+                    "currency": "syp",
+                    "amount": 25000,
+                    "paid_amount": 10000,
+                    "paid_source": "🌅 من غلة اليوم",
+                    "paid_currency": "syp"
+                },
+                {
+                    "date": "2026-03-22",
+                    "type": "شراء",
+                    "invoice_no": "552",
+                    "currency": "syp",
+                    "amount": 30000,
+                    "paid_amount": 10000,
+                    "paid_source": "🌅 من غلة اليوم",
+                    "paid_currency": "syp"
+                }
+            ]
+        }
+    },
+    "expenses": {},
+    "sales": [
+        {
+            "start": "2026-03-22",
+            "end": "2026-03-22",
+            "days": {}
+        },
+        {
+            "start": "2026-03-22",
+            "end": "2026-03-22",
+            "days": {
+                "2026-03-22": {
+                    "syp": 50000
+                }
+            }
+        },
+        {
+            "start": "2026-03-22",
+            "end": null,
+            "days": {
+                "2026-03-22": {
+                    "syp": 20000
+                }
+            }
+        }
+    ],
+    "users": [
+        7670003088
+    ],
+    "archives": [],
+    "settings": {
+        "notify_enabled": true,
+        "notify_hour": 8
+    }
+}
